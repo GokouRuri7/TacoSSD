@@ -12,6 +12,7 @@ pip3 install -r requirements.txt
 
 line 28
 "model_path"        : 'model_data/ssd_weights.pth'
+
 "model_path"        : 'logs/ep098-loss1.788-val_loss4.897.pth'
 
 
@@ -21,6 +22,7 @@ line 28
 python3 predict.py
 
 预测图片的地址为img/photo512
+
 photo512中有502个图片
 在预测中输入img/photo512/00000xxx.jpg
 xxx为0-501
